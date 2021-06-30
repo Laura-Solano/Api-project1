@@ -24,7 +24,7 @@ while (section.firstChild) {
 function displayRandomVehicles(randomVehicle){
   let vehicleNames= [];
     randomVehicle.map(v => {
-      vehicleNames.push(v.name)
+      vehicleNames.push(v.name +": "+ v.description)
     })
     
     let vehicle = document.createElement('p');
